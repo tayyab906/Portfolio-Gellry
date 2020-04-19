@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop{
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-3 .platform .desktop {
+    position: initial;
+    margin-right: 20vmin;
+    padding-right: 20vmin;
+    margin-right: 200px;
+  }
+  .section-3 .platform .desktop p ,button{
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+  header .col-md-7 h5, p{
+    position: initial;
+    margin-right: 4%;
+  
+  }
+  header .section-2 .cover > h1 ,p{
+    position: initial;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  header .project-area .col-lg-6 .button-grup > button{
+    position: initial !important;
+    display: inline;
+    display: inline-block !important;
+
+  }
+
+}
